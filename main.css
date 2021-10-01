@@ -1,1 +1,59 @@
-/* Amar sathe pujoy ghurte berobe ? */
+*{
+    box-sizing: border-box;
+    background-color: rgb(167, 155, 238);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#container{
+    border: 5px solid rgb(10, 10, 10);
+    height: 470px;
+    width: 24%;
+    margin: auto;
+    margin-top: 250px;
+    background-color: rgb(14, 13, 14);
+    clear: both;
+}
+.button{
+    float: left;
+    border: 2px solid blue;
+    background-color: rgb(73, 73, 73);
+    width: 24%;
+    height: 70px;
+    text-align: center;
+    padding-top: 8px;
+    float: left;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1px;
+    margin-left: 2px;
+    
+}
+button:hover{
+    color: white;
+    background-color: rgb(58, 57, 57)
+}
+#space{
+    border: 5px solid rgb(79, 10, 85);
+    height: 100px;
+    padding: 55px 0px 5px 5px;
+    text-align: left;
+    background-color: rgb(168, 164, 164);
+    position: static;
+    clear: left;
+}
+#ac{
+    background-color: rgb(126, 7, 7);
+    width: 49%;
+}
+#equal{
+    
+    height: 143px;
+    padding-top: 20px;
+    float: right;
+    margin-right: 2.5px;
+    
+}
+#zero{
+    width: 49%;
+}
