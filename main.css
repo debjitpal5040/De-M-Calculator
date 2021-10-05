@@ -8,10 +8,16 @@
     width: 25%;
     margin: auto;
     margin-top: 50px;
+    align-items: center;
+    justify-content: center;
     background-color:black;
     clear: both;
 }
-
+.btn-group button:hover {
+    color: white;
+    background-color: grey;
+    max-width:100%;
+}
 .button{
     float: left;
     border: 1px solid whitesmoke;
@@ -28,9 +34,8 @@
     margin: 1px;
     margin-left: 2px;
 }
-button:hover{
-    color: white;
-    background-color: grey
+#zero{
+    width: 49%;
 }
 #space{
     border: 3px solid purple;
@@ -43,23 +48,55 @@ button:hover{
     position: static;
     clear: left;
 }
-#ac{
+.ac{
+    float: left;
+    border: 1px solid whitesmoke;
     background-color: darkred;
     width: 49%;
+    height: 70px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: x-large;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1px;
+    margin-left: 2px;
 }
-#zero{
-    width: 49%;
-}
-#equal{
-    height: 143px;
-    float: right;
-    margin-right: 2.5px;
-    background-color: gold;
+.operators{
+    float: left;
+    border: 1px solid whitesmoke;
+    background-color: coral;
+    width: 24%;
+    height: 70px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: x-large;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1px;
+    margin-left: 2px;
 }
 #decimal{
-    background-color: coral;
     width: 23.9%;
 }
-#add, #minus, #multiply, #divide{
-    background-color: coral;
+.equal{
+    float: right;
+    border: 1px solid whitesmoke;
+    background-color: gold;
+    width: 24%;
+    height: 143px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: x-large;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1px;
+    margin-left: 2px;
+    margin-right: 2.5px;
 }
