@@ -1,4 +1,4 @@
 # De-M-Calculator
-A simple calculator computing basic calculations, using HTML, CSS, JS.
+A simple calculator made by HTML, CSS and Javascript to compute basic calculations. 
 ## Screenshot
-<img width="1440" alt="Screenshot 2021-10-04 at 18 06 42" src="https://user-images.githubusercontent.com/76846542/135852456-f4bc13a5-6f4d-4b59-af37-5b73571a0e37.png">
+<img width="1440" alt="Screenshot 2021-10-16 at 22 37 47" src="https://user-images.githubusercontent.com/76846542/137596194-0a0ed572-28cb-43d6-bf73-6da5541f75fb.png">
