@@ -103,7 +103,7 @@ body{
     margin-left: 2px;
     margin-right: 2.5px;
 }
-@media (min-width: 420px){
+@media (min-width: 210px){
     .ac{
         width: 6.9em;
     }
