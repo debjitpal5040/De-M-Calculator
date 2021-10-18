@@ -12,6 +12,16 @@ body{
     margin: auto;
     text-align: center;
 }
+h1{
+    text-align: center;
+    font-size: calc(1.75em + 1vmin);
+}
+p{
+    font-size: calc(0.75em + 1vmin);
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
 #container{
     border: 5px solid midnightblue;
     height: 470px;
