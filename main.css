@@ -1,11 +1,21 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(167, 155, 238);
+}
+html{
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(26, 80, 180, 0.555) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
+    background-attachment: fixed;
+}
+body{
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 #container{
     border: 5px solid midnightblue;
     height: 470px;
-    width: 25%;
+    width: 22em;
     margin: auto;
     margin-top: 50px;
     align-items: center;
@@ -13,7 +23,7 @@
     background-color:black;
     clear: both;
 }
-.btn-group button:hover {
+.btn-group button:hover{
     color: white;
     background-color: grey;
     max-width:100%;
@@ -22,7 +32,6 @@
     float: left;
     border: 1px solid whitesmoke;
     background-color: lightseagreen;
-    width: 24%;
     height: 70px;
     text-align: center;
     padding-top: 8px;
@@ -35,7 +44,7 @@
     margin-left: 2px;
 }
 #zero{
-    width: 49%;
+    width: 6.9em;
 }
 #space{
     border: 3px solid purple;
@@ -52,7 +61,6 @@
     float: left;
     border: 1px solid whitesmoke;
     background-color: darkred;
-    width: 49%;
     height: 70px;
     text-align: center;
     padding-top: 8px;
@@ -68,7 +76,6 @@
     float: left;
     border: 1px solid whitesmoke;
     background-color: coral;
-    width: 24%;
     height: 70px;
     text-align: center;
     padding-top: 8px;
@@ -80,14 +87,10 @@
     margin: 1px;
     margin-left: 2px;
 }
-#decimal{
-    width: 23.9%;
-}
 .equal{
     float: right;
     border: 1px solid whitesmoke;
     background-color: gold;
-    width: 24%;
     height: 143px;
     text-align: center;
     padding-top: 8px;
@@ -99,4 +102,18 @@
     margin: 1px;
     margin-left: 2px;
     margin-right: 2.5px;
+}
+@media (min-width: 210px){
+    .ac{
+        width: 6.9em;
+    }
+    .equal{
+        width: 3.46em;
+    }
+    .operators{
+        width: 3.45em;
+    }
+    .button{
+        width: 3.4em;
+    }
 }
