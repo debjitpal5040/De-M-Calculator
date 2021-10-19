@@ -3,7 +3,7 @@
 }
 html{
     background-image:
-    radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(26, 80, 180, 0.555) 100%),
+    radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
     radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
     background-attachment: fixed;
 }

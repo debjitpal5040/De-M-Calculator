@@ -1,6 +1,5 @@
 (function(){
     "use strict";
-    // Shortcut to get elements
     var el = function(element){
     if (element.charAt(0) === "#"){ // If passed an ID...
         return document.querySelector(element); // ... returns single element
@@ -54,7 +53,7 @@
             resultNum = oldNum * theNum;
             break;
         case "divided by":
-            resultNum = oldNum / theNum;
+            resultNum = (oldNum / theNum).toFixed(3);
             break;
         // If equal is pressed without an operator, keep number and continue
         default:
