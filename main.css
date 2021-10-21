@@ -3,13 +3,23 @@
 }
 html{
     background-image:
-    radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(26, 80, 180, 0.555) 100%),
+    radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
     radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
     background-attachment: fixed;
 }
 body{
     width: 100%;
     margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: calc(1.75em + 1vmin);
+}
+p{
+    font-size: calc(0.75em + 1vmin);
+    position: relative;
+    width: 100%;
     text-align: center;
 }
 #container{
@@ -49,10 +59,10 @@ body{
 #space{
     border: 3px solid purple;
     height: 100px;
-    padding: 50px 0px 5px 5px;
-    text-align: left;
+    padding: 50px 5px 5px 5px;
+    text-align: right;
     font-family: 'Patrick Hand', cursive;
-    font-size: x-large;
+    font-size: xx-large;
     background-color: lightgoldenrodyellow;
     position: static;
     clear: left;
