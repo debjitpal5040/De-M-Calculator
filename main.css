@@ -1,28 +1,33 @@
-*{
+* {
     box-sizing: border-box;
 }
-html{
+
+html {
     background-image:
-    radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
-    radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
+        radial-gradient(50% 30% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #646262 0%, #000000 100%);
     background-attachment: fixed;
 }
-body{
+
+body {
     width: 100%;
     margin: auto;
     text-align: center;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: calc(1.75em + 1vmin);
 }
-p{
+
+p {
     font-size: calc(0.75em + 1vmin);
     position: relative;
     width: 100%;
     text-align: center;
 }
-#container{
+
+#container {
     border: 5px solid midnightblue;
     height: 470px;
     width: 22em;
@@ -30,15 +35,17 @@ p{
     margin-top: 50px;
     align-items: center;
     justify-content: center;
-    background-color:black;
+    background-color: black;
     clear: both;
 }
-.btn-group button:hover{
+
+.btn-group button:hover {
     color: white;
     background-color: grey;
-    max-width:100%;
+    max-width: 100%;
 }
-.button{
+
+.button {
     float: left;
     border: 1px solid whitesmoke;
     background-color: lightseagreen;
@@ -47,16 +54,18 @@ p{
     padding-top: 8px;
     font-family: 'Patrick Hand', cursive;
     font-size: x-large;
-    font-weight:bold;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     margin: 1px;
     margin-left: 2px;
 }
-#zero{
+
+#zero {
     width: 6.9em;
 }
-#space{
+
+#space {
     border: 3px solid purple;
     height: 100px;
     padding: 50px 5px 5px 5px;
@@ -67,7 +76,8 @@ p{
     position: static;
     clear: left;
 }
-.ac{
+
+.ac {
     float: left;
     border: 1px solid whitesmoke;
     background-color: darkred;
@@ -76,13 +86,14 @@ p{
     padding-top: 8px;
     font-family: 'Patrick Hand', cursive;
     font-size: x-large;
-    font-weight:bold;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     margin: 1px;
     margin-left: 2px;
 }
-.operators{
+
+.operators {
     float: left;
     border: 1px solid whitesmoke;
     background-color: coral;
@@ -91,13 +102,14 @@ p{
     padding-top: 8px;
     font-family: 'Patrick Hand', cursive;
     font-size: x-large;
-    font-weight:bold;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     margin: 1px;
     margin-left: 2px;
 }
-.equal{
+
+.equal {
     float: right;
     border: 1px solid whitesmoke;
     background-color: gold;
@@ -106,24 +118,28 @@ p{
     padding-top: 8px;
     font-family: 'Patrick Hand', cursive;
     font-size: x-large;
-    font-weight:bold;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     margin: 1px;
     margin-left: 2px;
     margin-right: 2.5px;
 }
-@media (min-width: 210px){
-    .ac{
+
+@media (min-width: 210px) {
+    .ac {
         width: 6.9em;
     }
-    .equal{
+
+    .equal {
         width: 3.46em;
     }
-    .operators{
+
+    .operators {
         width: 3.45em;
     }
-    .button{
+
+    .button {
         width: 3.4em;
     }
 }
